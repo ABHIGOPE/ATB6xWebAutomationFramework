@@ -1,2 +1,4 @@
-package com.thetestingacademy.driver;public class DriverManager {
+package com.thetestingacademy.driver;
+
+public class DriverManager {
 }

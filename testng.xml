@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Tesṇt Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/gopea/IdeaProjects/ATB6xWebAutomationFramework">
-        <classes/>
+    <test verbose="2" preserve-order="true" parallel="methods" name="ATB6xWebAutomationFramework">
+        <classes>
+        <class name="com.thetestingacademy.tests.testLoginVWO_POM">
+            <methods>
+                <include name="testLoginVWONegative1"/>
+                <include name="testLoginVWONegative2"/>
+            </methods>
+        </class>
+        </classes>
     </test>
 </suite>
