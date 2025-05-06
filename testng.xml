@@ -3,10 +3,9 @@
 <suite name="All Tesṇt Suite">
     <test verbose="2" preserve-order="true" parallel="methods" name="ATB6xWebAutomationFramework">
         <classes>
-        <class name="com.thetestingacademy.tests.testLoginVWO_POM">
+        <class name="com.thetestingacademy.tests.testLoginVWO_PF_DM">
             <methods>
-                <include name="testLoginVWONegative1"/>
-                <include name="testLoginVWONegative2"/>
+                <include name="testLoginVWO_PF_DM"/>
             </methods>
         </class>
         </classes>
